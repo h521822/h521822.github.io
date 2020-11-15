@@ -53,14 +53,14 @@ Selenium`是开源的自动化测试工具，它主要是用于Web 应用程序�
 
 - 配置 浏览器 和 驱动
 
-  - Windows环境
-    - ChromeDriver下载地址：[http://chromedriver.storage.googleapis.com/index.html](https://link.jianshu.com/?t=http%3A%2F%2Fchromedriver.storage.googleapis.com%2Findex.html)
-     - 下载geckodriver.exe：[下载地址](https://github.com/mozilla/geckodriver/releases)
-     - 下载解压后将getckodriver.exe复制到Firefox的安装目录下，并在环境变量Path中添加路径
-  - ubuntu环境
-    - ChromeDriver下载地址：[http://chromedriver.storage.googleapis.com/index.html](https://link.jianshu.com/?t=http%3A%2F%2Fchromedriver.storage.googleapis.com%2Findex.html)
-     - 下载geckodriver.exe：[下载地址](https://github.com/mozilla/geckodriver/releases)
-     - 解压后将geckodriverckod 存放至 /usr/local/bin/ 路径下即可
+  - 配置Windows浏览器 和 驱动
+    - 下载ChromeDriver：[http://chromedriver.storage.googleapis.com/index.html](https://link.jianshu.com/?t=http%3A%2F%2Fchromedriver.storage.googleapis.com%2Findex.html)
+    - 下载geckodriver.exe：[下载地址](https://github.com/mozilla/geckodriver/releases)
+    - 下载解压后将getckodriver.exe复制到Firefox的安装目录下，并在环境变量Path中添加路径
+  - 配置ubuntu浏览器 和 驱动
+    - 下载ChromeDriver：[http://chromedriver.storage.googleapis.com/index.html](https://link.jianshu.com/?t=http%3A%2F%2Fchromedriver.storage.googleapis.com%2Findex.html)
+    - 下载geckodriver.exe：[下载地址](https://github.com/mozilla/geckodriver/releases)
+    - 解压后将geckodriverckod 存放至 /usr/local/bin/ 路径下即可
 
 
 

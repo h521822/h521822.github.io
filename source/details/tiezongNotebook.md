@@ -2,11 +2,10 @@
 title: 铁总手册
 date: 2020-11-03 12:32:19
 img: http://www.s3tu.com/images/2020/11/07/Konachan.com-229915sample6cf68.jpg
-categories: 其他
-
-tags: 
-  - 铁总
-  - 手册
+# categories: 其他
+# tags: 
+#   - 铁总
+#   - 手册
 ---
 
 # 铁总手册

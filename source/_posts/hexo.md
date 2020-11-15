@@ -12,9 +12,9 @@ categories: 其他
 
 > HEXO 是一个搭建静态博客的工具，可一键使`Markdown`生成为`HTML`文件, 并生成相应的文章目录/列表/标签/分类等内容. 
 
-## hexo搭建blog
+## 1. hexo搭建blog
 
-- 安装node.js
+### 1.1 安装node.js
 
 下载地址：
 ```
@@ -26,7 +26,9 @@ https://nodejs.org/en/
 node -v
 ```
 
-- 安装hexo
+### 1.2 安装hexo
+
+
 ```
 npm install -g hexo-cli
 ```
@@ -55,6 +57,7 @@ hexo init
 如果是下载已有的hexo模板,则执行不执行`hexo init`,执行`npm install --force`或者`npm i`或者`npm install`即可. 会生成`node_modules`. 
 
 - 启动本地blog
+
 ```
 hexo s
 ```
@@ -66,9 +69,9 @@ hexo s
 
 此时blog就搭建好了. 
 
-## hexo的基本使用
+## 2. hexo的基本使用
 
-- 新建文件夹
+### 2.1 新建文件夹
 
 ```
 hexo new page '文件夹名'
@@ -76,7 +79,7 @@ hexo new page '文件夹名'
 
 会在`source`下生成你创建的`文件夹名`, 并在该文件夹下生成一个`index.md`的空文件
 
-- 新建文件
+### 2.2 新建文件
 
 ```
 hexo new '文件名'
@@ -84,14 +87,20 @@ hexo new '文件名'
 
 会在`source/_posts`下生成你创建的`文件名.md`
 
+### 2.3 提交代码
+
 - md文件生成静态HTML文件
 
 ```
-hexo clean
+hexo cl
 hexo g
 ```
 
-先删除以前生成的HTML文件, 再生成新的HTML文件. `hexo g`是`hexo generate`的缩写
+先删除以前生成的HTML文件, 再生成新的HTML文件.
+
+ `hexo cl`是`hexo clean`的缩写.  
+
+`hexo g`是`hexo generate`的缩写
 
 - 将已生成的HTML文件部署到gitee或github上
 
@@ -107,7 +116,7 @@ deploy:
   type: 'git'
   repository:
     gitee: https://gitee.com/h520522/h520522.git
-    # github: https://github.com/h521822/h521822.github.io.git
+    github: https://github.com/h521822/h521822.github.io.git
   branch: master
 ```
 
@@ -121,16 +130,16 @@ hexo d
 `hexo d`是`hexo delpoy`的缩写
 
 
-## 修改主题
+## 3. 修改主题
 
-可先预览一下笔者使用的[博客](http://h520522.gitee.io/). 
+可先预览一下笔者使用的[博客](https://h521822.github.io/). 
 
 笔者使用的是[Matery](https://github.com/blinkfox/hexo-theme-matery)主题. 
 
-- 修改步骤
+### 3.1 修改步骤
 
 下载该主题, 放在`themes`下, 修改配置文件`_config.yml`的`theme`为`hexo-theme-matery`
 
 然后可以根据[文档](https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md)配置. 
 
-笔者的[配置](https://gitee.com/h520522/hexo-template), 仅供参考. 
+笔者的[配置](https://github.com/h521822/h521822.github.io), 仅供参考. 
