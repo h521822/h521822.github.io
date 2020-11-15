@@ -25,6 +25,14 @@ tags:
 - [爬虫例子1](https://github.com/shengqiangzhang/examples-of-web-crawlers)
 - [爬虫例子2](https://gitee.com/AJay13/ECommerceCrawlers)
 
+### 2.3 打包
+
+#### 2.3.1 打包`.exe`
+
+- [ PyInstaller ](https://www.cnblogs.com/h520522/articles/13618627.html)
+
+
+
 ## 3. VUE
 
 ### 3.1 vue-admin

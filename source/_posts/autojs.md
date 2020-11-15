@@ -16,7 +16,7 @@ categories: 脚本
 
 
 
-## 环境搭建
+## 1. 环境搭建
 
 
 
@@ -43,9 +43,9 @@ categories: 脚本
 
 
 
-## 开发说明
+## 2. 开发说明
 
-### 定义变量与输出
+### 2.1 定义变量与输出
 
 > 与es6一致, 不详细列举了
 
@@ -59,7 +59,7 @@ console.log(str)
 toastLog(str) // 相当于log(str) + toast(str)
 ```
 
-### 循环
+### 2.2 循环
 
 > 这里也只列举两种特殊点的
 
@@ -86,7 +86,7 @@ switch (i) {
 }
 ```
 
-### 设备操作
+### 2.3 设备操作
 
 ```javascript
 console.log(device)
@@ -96,7 +96,7 @@ device.keepScreenOn()//一直保持屏幕常亮
 device.cancelKeepingAwake()//来取消屏幕常亮。
 ```
 
-### 节点操作
+### 2.4 节点操作
 
 ```javascript
 var sendButton = text("发送").findOne();
