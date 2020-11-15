@@ -339,7 +339,9 @@ frame4.save('code.jpg')
 
 ## 3. 数据库相关操作
 
-#### 3.1 MySQL
+
+
+### 3.1 MySQL
 
 ```python
 import pymysql
@@ -360,7 +362,8 @@ cur.close()
 connect.close()
 ```
 
-#### 3.2 Oracle
+### 3.2 Oracle
+
 
 ```Python
 import cx_Oracle 
