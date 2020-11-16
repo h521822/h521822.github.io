@@ -12,7 +12,7 @@ categories: 其他
 
 > HEXO 是一个搭建静态博客的工具，可一键使`Markdown`生成为`HTML`文件, 并生成相应的文章目录/列表/标签/分类等内容. 
 
-[官网](https://hexo.io/zh-cn/docs/one-command-deployment.html)
+[官网](https://hexo.io/zh-cn/)
 
 
 
