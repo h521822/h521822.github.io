@@ -24,15 +24,15 @@ categories: 软件工具
 * Linux系统  
 
 Debian或Ubuntu Linux
-```
+```shell
 sudo apt-get install git
 ```
 老版本Debian或Ubuntu Linux
-```
+```shell
 sudo apt-get install git-core
 ```
 其他版本Linux，官网下载源码解压，然后依次输入
-```
+```shell
 ./config ——> make ——> sudo make install
 ```
 * Windows系统  
@@ -41,9 +41,12 @@ sudo apt-get install git-core
 
 ### 2.1 Git配置
 
-``` 
-$ git config --global user.name "Your Name"
-$ git config --global user.email "email@example.com"
+``` shell
+$ git config user.name 查看用户名
+$ git config user.email 查看邮箱
+
+$ git config --global user.name "Your Name"		设置用户名
+$ git config --global user.email "email@example.com"		设置邮箱
 ```
 **注意**  `--global`参数表示你这台机器上所有的Git仓库都会使用这个配置。
 
@@ -64,7 +67,7 @@ Windows系统请确保目录名（包括父目录）不包含中文
 
 ### 3.2 在当前目录初始化库
 
-```
+```shell
 $ git init
 ```
 
@@ -86,13 +89,13 @@ $ git init
 |`:e!`|放弃所有修改，回到上次保存文件开始编辑|
 
 查看文件内容
-```
+```shell
 cat <file-name>
 ```
 
 ## 5. 把文件添加到版本库
 
-```
+```shell
 $ git add <file-name>
 $ git commit -m "description"
 ```
@@ -100,13 +103,13 @@ $ git commit -m "description"
 
 ## 6. 查看工作区当前状态
 
-```
+```shell
 $ git status
 ```
 
 ## 7. 时光穿梭
 
-```
+```shell
 $ git reset --hard commit-id
 ```
 
@@ -114,7 +117,7 @@ $ git reset --hard commit-id
 
 #### 7.1.1 通过查看提交历史
 
-```
+```shell
 $ git log
 ```
 按`q`退出查看 
@@ -122,7 +125,7 @@ $ git log
 
 #### 7.1.2 简化显示提交历史
 
-```
+```shell
 $ git log --pretty=oneline
 ````
 `HEAD`，当前版本  
@@ -135,11 +138,11 @@ $ git log --pretty=oneline
 
 ### 7.2 确定重返未来commit-id
 #### 7.2.1 通过查看命令历史
-```
+```shell
 $ git reflog
 ```
 ## 8. 工作区与暂存区
-<!-- ![](https://camo.githubusercontent.com/14659c736537a60e9cf0076be119e14ef3cb089a/68747470733a2f2f63646e2e6c69616f78756566656e672e636f6d2f63646e2f66696c65732f6174746163686d656e74732f30303133383439303737303239313733343637323965396166626634313237623664666261653932303761663031363030302f30)   -->
+
 
 工作区就是电脑中能看到的目录，工作区有一个隐藏目录`.git`，这是Git的版本库 
 
@@ -150,34 +153,34 @@ $ git reflog
 * 比较工作区与暂存区（即上次git add的内容）的不同  
 
 比较所有修改文件的不同
-```
+```shell
 $ git diff
 ```
 比较指定修改文件的不同
-```
+```shell
 $ git diff <file-name>
 ```
 
 #### 8.1.2 修改已add但未commit
 
 * 比较暂存区与仓库分支（上次git commit）的不同
-```
+```shell
 $ git diff --staged
 ```
 或
-```
+```shell
 $ git diff --cached
 ```
 
 ## 9. 撤销修改
 
 * 场景1——工作区已修改但未add到暂存区  
-```
+```shell
 $ git checkout -- <file-name>
 ```
 其实就是用版本库里的版本替换工作区的版本
 * 场景2——工作区修改且已经git add到暂存区，分两步 
-```
+```shell
 $ git reset HEAD <file-name>
 ```
 回到场景1，再按场景1操作
@@ -189,19 +192,19 @@ $ git reset HEAD <file-name>
 * 选择一：确实要从版本库中删除该文件，分两步  
 
 第一步
-```
+```shell
 $ git rm <file-name>
 ```
 或
-```
+```shell
 git add <file-name>
 ```
 第二步
-```
+```shell
 $ git commit -m "description"
 ```
 * 选择二：删错了，要恢复  
-```
+```shell
 $ git checkout -- <file-name>
 ```
 其实就是用版本库里的版本替换工作区的版本
@@ -210,7 +213,7 @@ $ git checkout -- <file-name>
 
 ### 11.1 创建SSH Key
 
-```
+```shell
 $ ssh-keygen -t rsa -C "youremail@example.com"
 ```
 
@@ -222,45 +225,45 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 
 ### 11.2 关联远程仓库
 
-```
+```shell
 $ git remote add origin git@github.com:username/repositoryname.git
 ```
 或
-```
+```shell
 $ git remote add origin https://github.com/username/repositoryname.git
 ```
 远程库默认名字为`origin`
 
 ### 11.3 删除已经关联的远程库
 
-```
+```shell
 git remote rm remote-name
 ```
 若远程库默认名字为`origin`，则
-```
+```shell
 git remote rm origin
 ```
 
 ### 11.4 推送到远程仓库
 
 * 第一次推送到GitHub  
-```
+```shell
 $ git push -u origin master
 ```
 推送master分支
 * 后续推送
-```
+```shell
 $ git push origin master
 ```
 不再使用参数`-u`
 
 ### 11.5 从远程库克隆
 
-```
+```shell
 $ git clone git@github.com:username/repositoryname.git
 ```
 或  
-```
+```shell
 $ git clone https://github.com/username/repositoryname.git
 ```
 
@@ -268,37 +271,37 @@ $ git clone https://github.com/username/repositoryname.git
 
 ### 12.1 查看分支
 
-```
+```shell
 $ git branch
 ```
 
 ### 12.2 创建分支
 
-```
+```shell
 $ git branch <branch-name>
 ```
 
 ### 12.3 切换分支
 
-```
+```shell
 $ git checkout <branch-name>
 ```
 
 ### 12.4 创建+切换分支
 
-```
+```shell
 $ git checkout -b <branch-name>
 ```
 
 ### 12.5 合并某分支到当前分支
 
-```
+```shell
 $ git merge <branch-name>
 ```
 
 ### 12.6 普通模式合并分支
 
-```
+```shell
 $ git merge --no-ff -m "description" <branch-name>
 ```
 通常进行分支合并时，如果可以，Git会使用`Fast forward`模式，删除分支后，分支历史信息会丢失  
@@ -307,23 +310,23 @@ $ git merge --no-ff -m "description" <branch-name>
 
 ### 12.7 删除分支
 
-```
+```shell
 $ git branch -d <branch-name>
 ```
 
 ### 12.8 强行删除分支
 
-```
+```shell
 $ git branch -D <branch-name>
 ```
 
 ### 12.9 查看分支合并图
 
-```
+```shell
 $ git log --graph
 ```
 简洁查看
-```
+```shell
 $ git log --graph --pretty=oneline --abbrev-commit
 ```
 
@@ -343,27 +346,27 @@ $ git log --graph --pretty=oneline --abbrev-commit
 
 ### 12.11 保存工作现场
 
-```
+```shell
 $ git stash
 ```
 
 ### 12.12 查看保存的工作现场
 
-```
+```shell
 $ git stash list
 ```
 
 ### 12.13 恢复工作现场
 
-```
+```shell
 $ git stash apply
 ```
 ### 12.14 删除工作现场
-```
+```shell
 $ git stash drop
 ```
 ### 12.15 恢复并删除工作现场
-```
+```shell
 git stash pop
 ```
 ### 12.16 Feature分支
@@ -377,45 +380,45 @@ git stash pop
 
 ### 13.2 查看远程库信息
 
-```
+```shell
 $ git remote
 ```
 详细查看
-```
+```shell
 git remote -v
 ```
 
 ### 13.3 本地推送分支
 
-```
+```shell
 $ git push origin <branch-name>
 ```
 
 ### 13.3 在本地创建和远程分支对应的分支
 
-```
+```shell
 $ git checkout -b <branch-name> origin/<branch-name>
 ```
 
 ### 13.4 建立本地分支和远程分支的关联
 
-```
+```shell
 $ git branch --set-upstream <branch-name> origin/<branch-name>
 ```
 或  
-```
+```shell
 $ git branch --set-upstream-to=origin/<branch-name> <branch-name>
 ```
 
 ### 13.5 从远程抓取分支
 
-```
+```shell
 $ git pull
 ```
 
 ## 14. Rebase“变基”  
 
-```
+```shell
 $ git rebase
 ```
 把分叉的提交历史“整理”成一条直线，看上去更直观。缺点是本地的分叉提交已经被修改过了。  
@@ -426,31 +429,31 @@ $ git rebase
 
 将来无论什么时候，取某个标签的版本，就是把那个打标签的时刻的历史版本取出来。所以，标签也是版本库的一个快照
 ### 15.1 创建标签
-```
+```shell
 $ git tag <tag-name>
 ```
 在最新commit上打一个标签  
-```
+```shell
 $ git tag <tag-name> commit-id
 ```
 在对应的commit_id上打一个新标签
 
 ### 15.2 创建带有说明的标签
 
-```
+```shell
 $ git tag -a <tag-name> -m "description" commit-id
 ```
 `-a`指定标签名，`-m`指定说明文字  
 
 ### 15.3 查看所有标签
 
-```
+```shell
 $ git tag
 ```
 
 ### 15.4 查看对应标签的信息
 
-```
+```shell
 $ git show <tag-name>
 ```
 **注意**标签总是和某个commit挂钩。如果这个commit既出现在master分支，又出现在dev分支，那么在这两个分支上都可以看到这个标签。
@@ -459,30 +462,30 @@ $ git show <tag-name>
 
 #### 15.5.1 推送某个标签到远程
 
-```
+```shell
 $ git push origin <tag-name>
 ```
 
 #### 15.5.2 一次性推送全部尚未推送的标签到远程
 
-```
+```shell
 git push origin --tags
 ```
 
 #### 15.5.3 删除一个本地标签
 
-```
+```shell
 $ git tag -d <tag-name>
 ```
 
 #### 15.5.4 删除一个远程标签
 
 先从本地删除  
-```
+```shell
 $ git tag -d <tag-name>
 ```
 再从远程删除
-```
+```shell
 $ git push origin :refs/tags/<tag-name>
 ```
 
@@ -494,17 +497,26 @@ $ git push origin :refs/tags/<tag-name>
 ## 17. 本地库既关联GitHub，又关联码云
 如原来已经关联了默认名`origin`的GitHub  
 1. 先删除已关联的名为`origin`的远程库：
-```
+
+
+
+```shell
 $ git remote rm origin
 ```
 2. 然后，先关联GitHub的远程库：
-```
+
+
+
+```shell
 $ git remote add github git@github.com:username/repositoryname.git
 ```
 注意，远程库的名称叫`github`，不叫`origin`了  
 
 3. 接着，再关联码云的远程库：
-```
+
+
+
+```shell
 $ git remote add gitee git@gitee.com:username/repositoryname.git
 ```
 同样注意，远程库的名称叫`gitee`，不叫`origin`了  
@@ -512,17 +524,17 @@ $ git remote add gitee git@gitee.com:username/repositoryname.git
 **注意**  多个关联后以上所以命令含的`origin`都换成相应的`github`或`gitee`  
 
 如果要推送到GitHub，使用命令：
-```
+```shell
 $ git push github master
 ```
 如果要推送到码云，使用命令：
-```
+```shell
 $ git push gitee master
 ```
 ## 18. 自定义Git
 ### 18.1 显示颜色
 让Git显示颜色，会让命令输出看起来更醒目：  
-```
+```shell
 $ git config --global color.ui true
 ```
 ### 18.2 忽略特殊文件
@@ -530,15 +542,15 @@ $ git config --global color.ui true
 ### 18.3 配置别名
 如
 * 用`git st`就表示`git status`
-```
+```shell
 $ git config --global alias.st status
 ```
 * 配置一个`git last`，让其显示最后一次提交信息：
-```
+```shell
 $ git config --global alias.last 'log -1'
 ```
 * 甚至还有人丧心病狂地把lg配置成了：
-```
+```shell
 $ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 ```
 试试`git lg`的效果，很炫酷
@@ -547,7 +559,7 @@ $ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Cre
 
 * 配置Git的时候，加上`--global`是针对当前用户起作用的，如果不加，那只针对当前的仓库起作用  
 * 查看用户的配置信息：
-```
+```shell
 $ git config --global --list
 ```
 要查看当前仓库的，把`global`改成`local`就好

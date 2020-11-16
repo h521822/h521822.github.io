@@ -104,6 +104,10 @@ tags:
 
 - [JetBrain全家桶](http://idea.medeming.com/jets/)
 
+### 5.9 Google插件
+
+- [谷歌访问助手](https://wwx.lanzoux.com/iPgkyifu5ad)
+
 
 
 ## 6. 程序员常用网站
@@ -116,3 +120,8 @@ tags:
 
 - [铁总](/details/tiezongNotebook)
 - [软件安装](/details/SpringBootNotebook)
+
+## 8. 安卓
+
+- [flutter](/details/flutter)
+
