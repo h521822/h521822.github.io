@@ -147,6 +147,6 @@ deploy:
   type: 'git'
   repository:
     # gitee: https://gitee.com/h520522/h520522.git
-    github: https://github.com/h521822/h521822.github.io.git
+    github: git@github.com:h521822/h521822.github.io.git
     # coding: https://gitee.com/h520522/h520522.git
   branch: master
