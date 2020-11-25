@@ -125,3 +125,10 @@ tags:
 
 - [flutter](/details/flutter)
 
+## 9. 个人github
+
+### 9.1 验证码识别训练
+
+- [github](https://github.com/h521822/verification-code)
+- 
+
