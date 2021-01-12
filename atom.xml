@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Jamie</title>
+  
+  <subtitle>江小白不喝酒</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2021-01-12T15:00:25.601Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>江小白不喝酒</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>正则表达式真的很骚，可惜你不会写！！！</title>
+    <link href="http://example.com/2021/01/12/zheng-ze-biao-da-shi/"/>
+    <id>http://example.com/2021/01/12/zheng-ze-biao-da-shi/</id>
+    <published>2021-01-12T15:00:25.601Z</published>
+    <updated>2021-01-12T15:00:25.601Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;正则表达式真的很骚，可惜你不会写！！！&quot;&gt;&lt;a href=&quot;#正则表达式真的很骚，可惜你不会写！！！&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="正则" scheme="http://example.com/tags/%E6%AD%A3%E5%88%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/2021/01/12/hello-world/"/>
+    <id>http://example.com/2021/01/12/hello-world/</id>
+    <published>2021-01-12T15:00:25.600Z</published>
+    <updated>2021-01-12T15:00:25.600Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="其他" scheme="http://example.com/categories/%E5%85%B6%E4%BB%96/"/>
+    
+    
+    <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>autojs</title>
+    <link href="http://example.com/2020/11/03/autojs/"/>
+    <id>http://example.com/2020/11/03/autojs/</id>
+    <published>2020-11-03T15:44:27.000Z</published>
+    <updated>2021-01-12T15:00:25.600Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;auto-js&quot;&gt;&lt;a href=&quot;#auto-js&quot; class=&quot;headerlink&quot; title=&quot;auto.js&quot;&gt;&lt;/a&gt;auto.js&lt;/h1&gt;&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="脚本" scheme="http://example.com/categories/%E8%84%9A%E6%9C%AC/"/>
+    
+    
+    <category term="autojs" scheme="http://example.com/tags/autojs/"/>
+    
+    <category term="脚本" scheme="http://example.com/tags/%E8%84%9A%E6%9C%AC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>selenium</title>
+    <link href="http://example.com/2020/11/03/selenium/"/>
+    <id>http://example.com/2020/11/03/selenium/</id>
+    <published>2020-11-03T15:42:24.000Z</published>
+    <updated>2021-01-12T15:00:25.601Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;selenium&quot;&gt;&lt;a href=&quot;#selenium&quot; class=&quot;headerlink&quot; title=&quot;selenium&quot;&gt;&lt;/a&gt;selenium&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="Python" scheme="http://example.com/categories/Python/"/>
+    
+    
+    <category term="爬虫" scheme="http://example.com/tags/%E7%88%AC%E8%99%AB/"/>
+    
+    <category term="自动化测试" scheme="http://example.com/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>简历</title>
+    <link href="http://example.com/2020/10/31/resume/"/>
+    <id>http://example.com/2020/10/31/resume/</id>
+    <published>2020-10-31T05:36:57.000Z</published>
+    <updated>2021-01-12T15:00:25.601Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;联系方式&quot;&gt;&lt;a href=&quot;#联系方式&quot; class=&quot;headerlink&quot; title=&quot;联系方式&quot;&gt;&lt;/a&gt;联系方式&lt;/h1&gt;&lt;p&gt;（HR会打印你的简历，用于在面试的时候联系，所以联系方式放到最上边会比较方便）&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;手机：135….</summary>
+        
+      
+    
+    
+    
+    <category term="其他" scheme="http://example.com/categories/%E5%85%B6%E4%BB%96/"/>
+    
+    
+    <category term="简历" scheme="http://example.com/tags/%E7%AE%80%E5%8E%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo</title>
+    <link href="http://example.com/2020/10/26/hexo/"/>
+    <id>http://example.com/2020/10/26/hexo/</id>
+    <published>2020-10-25T17:13:33.000Z</published>
+    <updated>2021-01-12T15:00:25.600Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;HEXO&quot;&gt;&lt;a href=&quot;#HEXO&quot; class=&quot;headerlink&quot; title=&quot;HEXO&quot;&gt;&lt;/a&gt;HEXO&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;HEXO</summary>
+        
+      
+    
+    
+    
+    <category term="其他" scheme="http://example.com/categories/%E5%85%B6%E4%BB%96/"/>
+    
+    
+    <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git学习笔记</title>
+    <link href="http://example.com/2020/10/26/git/"/>
+    <id>http://example.com/2020/10/26/git/</id>
+    <published>2020-10-25T16:29:49.000Z</published>
+    <updated>2021-01-12T15:00:25.600Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Git学习笔记&quot;&gt;&lt;a href=&quot;#Git学习笔记&quot; class=&quot;headerlink&quot; title=&quot;Git学习笔记&quot;&gt;&lt;/a&gt;Git学习笔记&lt;/h1&gt;&lt;hr&gt;
+&lt;h2 id=&quot;1-Git简介&quot;&gt;&lt;a href=&quot;#1-Git简介&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="软件工具" scheme="http://example.com/categories/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="Git" scheme="http://example.com/tags/Git/"/>
+    
+  </entry>
+  
+</feed>
