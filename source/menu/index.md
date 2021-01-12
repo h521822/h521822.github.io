@@ -132,3 +132,12 @@ tags:
 - [github](https://github.com/h521822/verification-code)
 - 
 
+
+## 10. 个人成长
+
+### 10.1 理财
+
+- [指数20日均值策略](/details/指数20日均值策略)
+- [筛选优秀基金](/details/筛选优秀基金)
+- [KDJ的应用](/details/KDJ的应用)
+
