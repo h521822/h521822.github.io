@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Jamie</title>
+  
+  <subtitle>江小白不喝酒</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2021-06-03T14:11:36.251Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>江小白不喝酒</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>正则表达式真的很骚，可惜你不会写！！！</title>
+    <link href="http://example.com/2021/06/03/zheng-ze-biao-da-shi/"/>
+    <id>http://example.com/2021/06/03/zheng-ze-biao-da-shi/</id>
+    <published>2021-06-03T14:11:36.250Z</published>
+    <updated>2021-06-03T14:11:36.251Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;正则表达式真的很骚，可惜你不会写！！！&quot;&gt;&lt;a href=&quot;#正则表达式真的很骚，可惜你不会写！！！&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="正则" scheme="http://example.com/tags/%E6%AD%A3%E5%88%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/2021/06/03/hello-world/"/>
+    <id>http://example.com/2021/06/03/hello-world/</id>
+    <published>2021-06-03T14:11:36.236Z</published>
+    <updated>2021-06-03T14:11:36.237Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="其他" scheme="http://example.com/categories/%E5%85%B6%E4%BB%96/"/>
+    
+    
+    <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>股债平衡策略改进之：波动率决定仓位</title>
+    <link href="http://example.com/2021/06/03/gu-zhai-ping-heng-ce-lue-gai-jin-zhi-bo-dong-lu-jue-ding-cang-wei/"/>
+    <id>http://example.com/2021/06/03/gu-zhai-ping-heng-ce-lue-gai-jin-zhi-bo-dong-lu-jue-ding-cang-wei/</id>
+    <published>2021-06-03T08:05:17.000Z</published>
+    <updated>2021-06-03T08:05:37.051Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;我们提出了基于风险暴露平价的股债平衡策略。&lt;/p&gt;
+&lt;p&gt;这个策略本质上，&lt;strong&gt;是用波动率大小来决定股票资产的仓位，即波动率越大时股票资产仓位越小，反之，波动率越小时股票资产仓位越大。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;基于波动率分位数的股债平衡策略</summary>
+        
+      
+    
+    
+    
+    
+    <category term="理财" scheme="http://example.com/tags/%E7%90%86%E8%B4%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>股债平衡策略改进之：风险暴露平价决定仓位</title>
+    <link href="http://example.com/2021/06/03/gu-zhai-ping-heng-ce-lue-gai-jin-zhi-feng-xian-bao-lu-ping-jie-jue-ding-cang-wei/"/>
+    <id>http://example.com/2021/06/03/gu-zhai-ping-heng-ce-lue-gai-jin-zhi-feng-xian-bao-lu-ping-jie-jue-ding-cang-wei/</id>
+    <published>2021-06-03T08:04:29.000Z</published>
+    <updated>2021-06-03T08:04:47.318Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;同样持有10万元市值的股票，在2015年时所面临的风险和现在(2019年)是截然不同的。&lt;/p&gt;
+&lt;p&gt;因为2015年时大量的股票经常动不动就是涨停或跌停，甚至&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="理财" scheme="http://example.com/tags/%E7%90%86%E8%B4%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>股债平衡策略改进之：估值决定仓位</title>
+    <link href="http://example.com/2021/06/03/gu-zhai-ping-heng-ce-lue-gai-jin-zhi-gu-zhi-jue-ding-cang-wei/"/>
+    <id>http://example.com/2021/06/03/gu-zhai-ping-heng-ce-lue-gai-jin-zhi-gu-zhi-jue-ding-cang-wei/</id>
+    <published>2021-06-03T08:03:23.000Z</published>
+    <updated>2021-06-03T08:03:43.871Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;对股债平衡策略而言，考虑股票估值低时，仓位高一点，股票估值高时，仓位低一点，符合我们对投资的一般理解，是一个合乎逻辑的改进方向。&lt;/p&gt;
+&lt;p&gt;因此，我们来讨论如何利用估值逻辑来对股债平衡策略进行改进。&lt;/p&gt;
+&lt;p&gt;我们面临的第一个问题就是：*&lt;em&gt;如何判断股票估值的高</summary>
+        
+      
+    
+    
+    
+    
+    <category term="理财" scheme="http://example.com/tags/%E7%90%86%E8%B4%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>股债平衡策略改进之：基于股价涨跌幅调仓</title>
+    <link href="http://example.com/2021/06/03/gu-zhai-ping-heng-ce-lue-gai-jin-zhi-ji-yu-gu-jie-zhang-die-fu-diao-cang/"/>
+    <id>http://example.com/2021/06/03/gu-zhai-ping-heng-ce-lue-gai-jin-zhi-ji-yu-gu-jie-zhang-die-fu-diao-cang/</id>
+    <published>2021-06-03T07:59:49.000Z</published>
+    <updated>2021-06-03T08:00:22.712Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;不同目标股债比例下，触发调仓所需的股价涨幅相差很大，调仓阈值的设置不具有普适性，也就是说根据股票仓位变化来进行调仓不是一个合理的做法。&lt;/p&gt;
+&lt;p&gt;比如，对90%:10%股债平衡策略来说，需要股票上涨111.1%才能使股票仓位上升到95%从而触发调仓，这显然太难了；&lt;/p</summary>
+        
+      
+    
+    
+    
+    
+    <category term="理财" scheme="http://example.com/tags/%E7%90%86%E8%B4%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>深度解析：传统股债平衡策略的优缺点</title>
+    <link href="http://example.com/2021/06/03/shen-du-jie-xi-chuan-tong-gu-zhai-ping-heng-ce-lue-de-you-que-dian/"/>
+    <id>http://example.com/2021/06/03/shen-du-jie-xi-chuan-tong-gu-zhai-ping-heng-ce-lue-de-you-que-dian/</id>
+    <published>2021-06-03T07:58:50.000Z</published>
+    <updated>2021-06-03T07:59:14.848Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;们介绍了股债平衡策略的基本思想与逻辑，并提出了一些对传统股债平衡策略进行改进的方向。&lt;/p&gt;
+&lt;p&gt;传统股债平衡策略就是格雷厄姆在《聪明的投资者》一书中所提出的股债仓位50%:50%平衡策略，当股票仓位偏离理论仓位达到一定程度时(比如5%)进行再平衡调仓。&lt;/p&gt;
+&lt;p&gt;当</summary>
+        
+      
+    
+    
+    
+    
+    <category term="理财" scheme="http://example.com/tags/%E7%90%86%E8%B4%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>行业轮动策略：从动量指标说起</title>
+    <link href="http://example.com/2021/06/03/xing-ye-lun-dong-ce-lue-cong-dong-liang-zhi-biao-shuo-qi/"/>
+    <id>http://example.com/2021/06/03/xing-ye-lun-dong-ce-lue-cong-dong-liang-zhi-biao-shuo-qi/</id>
+    <published>2021-06-03T07:57:15.000Z</published>
+    <updated>2021-06-03T07:57:53.665Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;在经济周期各个阶段，不同的行业所处的经营环境、发展形势是不完全一致的，会出现有些行业发展的很好，而有些行业发展的不好的现象，也即&lt;strong&gt;行业之间的发展是不同步的，这是行业轮动的基本面逻辑所在。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;行业轮动策略&lt;/stro</summary>
+        
+      
+    
+    
+    
+    
+    <category term="理财" scheme="http://example.com/tags/%E7%90%86%E8%B4%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在风格轮动策略中，如何避开全面熊市行情？</title>
+    <link href="http://example.com/2021/06/03/zai-feng-ge-lun-dong-ce-lue-zhong-ru-he-bi-kai-quan-mian-xiong-shi-xing-qing/"/>
+    <id>http://example.com/2021/06/03/zai-feng-ge-lun-dong-ce-lue-zhong-ru-he-bi-kai-quan-mian-xiong-shi-xing-qing/</id>
+    <published>2021-06-03T07:08:58.000Z</published>
+    <updated>2021-06-03T07:09:19.834Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;我们测试了&lt;strong&gt;基于动量指标的大小盘风格轮动策略&lt;/strong&gt;的历史业绩效果。&lt;/p&gt;
+&lt;p&gt;该策略的核心交易逻辑是买入并持有指数池中动量排名第一的指数，并在动量排名发生变化时进行调仓。这里的动量指标，就是股价的N日涨跌幅。&lt;/p&gt;
+&lt;p&gt;该策略可以利用大小盘</summary>
+        
+      
+    
+    
+    
+    
+    <category term="理财" scheme="http://example.com/tags/%E7%90%86%E8%B4%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>年化收益28%+！基于动量指标的大小盘风格轮动策略</title>
+    <link href="http://example.com/2021/06/03/nian-hua-shou-yi-28-ji-yu-dong-liang-zhi-biao-de-da-xiao-pan-feng-ge-lun-dong-ce-lue/"/>
+    <id>http://example.com/2021/06/03/nian-hua-shou-yi-28-ji-yu-dong-liang-zhi-biao-de-da-xiao-pan-feng-ge-lun-dong-ce-lue/</id>
+    <published>2021-06-03T07:07:32.000Z</published>
+    <updated>2021-06-03T07:08:00.423Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;，我们测试了&lt;strong&gt;基于动量指标的大小盘风格轮动策略&lt;/strong&gt;的历史业绩效果。&lt;/p&gt;
+&lt;p&gt;该策略的核心交易逻辑是买入并持有指数池中动量排名第一的指数，并在动量排名发生变化时进行调仓。这里的动量指标，就是股价的N日涨跌幅。&lt;/p&gt;
+&lt;p&gt;该策略可以利用大小</summary>
+        
+      
+    
+    
+    
+    
+    <category term="理财" scheme="http://example.com/tags/%E7%90%86%E8%B4%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>年化20%+！一个可以捕捉大小盘轮动行情的简单策略</title>
+    <link href="http://example.com/2021/06/03/nian-hua-20-yi-ge-ke-yi-bu-zhuo-da-xiao-pan-lun-dong-xing-qing-de-jian-dan-ce-lue/"/>
+    <id>http://example.com/2021/06/03/nian-hua-20-yi-ge-ke-yi-bu-zhuo-da-xiao-pan-lun-dong-xing-qing-de-jian-dan-ce-lue/</id>
+    <published>2021-06-03T07:06:33.000Z</published>
+    <updated>2021-06-03T07:07:04.673Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;在A股市场的历史中，大小盘轮动是一个常见现象，大盘占优、小盘占优、大小盘均衡三种状态之间曾多次来回切换。&lt;/p&gt;
+&lt;p&gt;如果我们能&lt;strong&gt;利用大小盘股强势阶段在时间上的错位，不停地切换配置阶段占优的一方，必然能大幅提升投资收益。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这篇</summary>
+        
+      
+    
+    
+    
+    
+    <category term="理财" scheme="http://example.com/tags/%E7%90%86%E8%B4%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>布林通道策略的投资效果如何？</title>
+    <link href="http://example.com/2021/06/03/bu-lin-tong-dao-ce-lue-de-tou-zi-xiao-guo-ru-he/"/>
+    <id>http://example.com/2021/06/03/bu-lin-tong-dao-ce-lue-de-tou-zi-xiao-guo-ru-he/</id>
+    <published>2021-06-03T07:04:57.000Z</published>
+    <updated>2021-06-03T07:05:46.060Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;strong&gt;布林通道&lt;/strong&gt;(Bollinger</summary>
+        
+      
+    
+    
+    
+    
+    <category term="理财" scheme="http://example.com/tags/%E7%90%86%E8%B4%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>经典震荡指标用于指数基金择时的效果：以RSI为例</title>
+    <link href="http://example.com/2021/06/02/jing-dian-zhen-dang-zhi-biao-yong-yu-zhi-shu-ji-jin-ze-shi-de-xiao-guo-yi-rsi-wei-li/"/>
+    <id>http://example.com/2021/06/02/jing-dian-zhen-dang-zhi-biao-yong-yu-zhi-shu-ji-jin-ze-shi-de-xiao-guo-yi-rsi-wei-li/</id>
+    <published>2021-06-02T10:14:49.000Z</published>
+    <updated>2021-06-02T10:15:15.116Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;在前面我们提到过，可以用来指导择时买卖交易的技术指标主要分两大类，趋势类指标和震荡类指标，趋势类指标诸如均线、动量等，震荡类指标主要有相对强弱指数(RSI)、慢速随机指标(SKDJ)等。&lt;/p&gt;
+&lt;p&gt;一般而言，趋势类指标在趋势行情中会比较有效，而在震荡盘整行情中会失效，而</summary>
+        
+      
+    
+    
+    
+    
+    <category term="理财" scheme="http://example.com/tags/%E7%90%86%E8%B4%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>动量指标用于指数基金择时的效果如何？</title>
+    <link href="http://example.com/2021/06/02/dong-liang-zhi-biao-yong-yu-zhi-shu-ji-jin-ze-shi-de-xiao-guo-ru-he/"/>
+    <id>http://example.com/2021/06/02/dong-liang-zhi-biao-yong-yu-zhi-shu-ji-jin-ze-shi-de-xiao-guo-ru-he/</id>
+    <published>2021-06-02T10:10:58.000Z</published>
+    <updated>2021-06-02T10:11:26.434Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;strong&gt;动量指标&lt;/strong&gt;，也叫变动率指标(Rate of Change, 简称&lt;strong&gt;ROC&lt;/strong&gt;)，它等于最新的股票价格相较于N天前的股票价格的涨跌幅，即&lt;strong&gt;股价的N期涨跌幅&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;下图是&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="理财" scheme="http://example.com/tags/%E7%90%86%E8%B4%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>指标之王MACD是否名副其实？</title>
+    <link href="http://example.com/2021/06/02/zhi-biao-zhi-wang-macd-shi-fou-ming-fu-qi-shi/"/>
+    <id>http://example.com/2021/06/02/zhi-biao-zhi-wang-macd-shi-fou-ming-fu-qi-shi/</id>
+    <published>2021-06-02T10:09:56.000Z</published>
+    <updated>2021-06-02T10:10:24.271Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;MACD，全称叫“平滑异同移动平均线”，由格拉尔德·阿佩尔（Gerald</summary>
+        
+      
+    
+    
+    
+    
+    <category term="理财" scheme="http://example.com/tags/%E7%90%86%E8%B4%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>双均线交易策略是否比单均线策略更有效？</title>
+    <link href="http://example.com/2021/06/02/shuang-jun-xian-jiao-yi-ce-lue-shi-fou-bi-dan-jun-xian-ce-lue-geng-you-xiao/"/>
+    <id>http://example.com/2021/06/02/shuang-jun-xian-jiao-yi-ce-lue-shi-fou-bi-dan-jun-xian-ce-lue-geng-you-xiao/</id>
+    <published>2021-06-02T10:08:29.000Z</published>
+    <updated>2021-06-02T10:09:10.289Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;和我们事先预料的一致，仅用单均线指标来做交易的效果并不好，事实上，主流的常见技术指标直接用于交易的效果都不太好。&lt;/p&gt;
+&lt;p&gt;但单一指标毕竟是多指标策略的基础，所以搞清楚它们的性能、特征，也是有必要的。&lt;/p&gt;
+&lt;p&gt;单均线策略虽然能在牛市中抓住大部分行情，同时在熊市中躲</summary>
+        
+      
+    
+    
+    
+    
+    <category term="理财" scheme="http://example.com/tags/%E7%90%86%E8%B4%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>利用移动平均线进行择时交易的效果如何？</title>
+    <link href="http://example.com/2021/06/02/li-yong-yi-dong-ping-jun-xian-jin-xing-ze-shi-jiao-yi-de-xiao-guo-ru-he/"/>
+    <id>http://example.com/2021/06/02/li-yong-yi-dong-ping-jun-xian-jin-xing-ze-shi-jiao-yi-de-xiao-guo-ru-he/</id>
+    <published>2021-06-02T10:05:49.000Z</published>
+    <updated>2021-06-02T10:07:01.500Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;移动平均线（即均线，Moving</summary>
+        
+      
+    
+    
+    
+    
+    <category term="理财" scheme="http://example.com/tags/%E7%90%86%E8%B4%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如今的使用效果如何？</title>
+    <link href="http://example.com/2021/06/01/ru-jin-de-shi-yong-xiao-guo-ru-he/"/>
+    <id>http://example.com/2021/06/01/ru-jin-de-shi-yong-xiao-guo-ru-he/</id>
+    <published>2021-06-01T06:15:11.000Z</published>
+    <updated>2021-06-01T06:17:45.005Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;在丹尼斯和他的海龟们所使用的交易策略中，最主要的就是&lt;strong&gt;唐奇安通道策略&lt;/strong&gt;(Donchian</summary>
+        
+      
+    
+    
+    
+    
+    <category term="理财" scheme="http://example.com/tags/%E7%90%86%E8%B4%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>海龟交易策略：一个传奇的交易故事</title>
+    <link href="http://example.com/2021/06/01/hai-gui-jiao-yi-ce-lue-yi-ge-chuan-qi-de-jiao-yi-gu-shi/"/>
+    <id>http://example.com/2021/06/01/hai-gui-jiao-yi-ce-lue-yi-ge-chuan-qi-de-jiao-yi-gu-shi/</id>
+    <published>2021-06-01T06:13:33.000Z</published>
+    <updated>2021-06-01T06:14:24.824Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;海龟交易策略的诞生，是交易界的一个传奇故事，它源于1983年美国著名的交易大师理查德·丹尼斯和他的朋友比尔·埃克哈特在新加坡一个海龟农场时定下的一个&lt;strong&gt;赌局&lt;/strong&gt;：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;丹尼斯认为伟大的交易员是可以后天培养的，就像新加坡人养</summary>
+        
+      
+    
+    
+    
+    
+    <category term="理财" scheme="http://example.com/tags/%E7%90%86%E8%B4%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python</title>
+    <link href="http://example.com/2021/04/13/python/"/>
+    <id>http://example.com/2021/04/13/python/</id>
+    <published>2021-04-13T06:11:36.000Z</published>
+    <updated>2021-06-03T01:57:46.614Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Python&quot;&gt;&lt;a href=&quot;#Python&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Python" scheme="http://example.com/tags/Python/"/>
+    
+  </entry>
+  
+</feed>
