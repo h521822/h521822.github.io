@@ -13819,7 +13819,7 @@
 	const jo = new class extends mn {
 		constructor(t) {
 			super(), (new Bo)
-				.load("https://jmy.qmgf.net/preview/font.json", (e => {
+				.load("./font.json", (e => {
 					this.geometry = new Go(t, {
 						font: e,
 						size: 1,
